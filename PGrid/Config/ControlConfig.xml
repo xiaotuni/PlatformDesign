@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Controls Name="Control">
+
+  <Control Name="XtnLogonForm" Description="用户登录窗体" IsCompositeCtrl="true" >
+    <xaml>
+      <![CDATA[				<my:XtnLogonForm Name="??" Height="155" Width="310" Canvas.Left="30" Canvas.Top="30" {0}/>			]]>
+    </xaml>
+    <AssemblyQualifiedName>
+      <![CDATA[				xmlns:my="clr-namespace:PlatformClient.CompositeCtrl;assembly=PlatformClient.CompositeCtrl"			]]>
+    </AssemblyQualifiedName>
+    <Functions Name="Function" >
+      <Function Name="LoginSuccess" Description="登录成功" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="Logout" Description="退出登录" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+    </Functions>
+    <Events Name="Event">
+      <!--<Event Name="Click" Description="单击" BindFunctionName="ClickEvent" AssemblyName="PlatformClient.PageRuntime;PlatformClient.PageRuntime.Lib.EventBinding"
+				 EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />-->
+    </Events>
+    <PropertyCollection value="Height;高|Width;宽"/>
+  </Control>
+  
+	<Control Name="XtnBetweenDatetime" Description="时间段控件" IsCompositeCtrl="true" >
+		<xaml>
+			<![CDATA[				<my:XtnBetweenDatetime Name="??" Height="30" Width="300" Canvas.Left="30" Canvas.Top="30" TextContent="时间范围" {0}/>			]]>
+		</xaml>
+		<AssemblyQualifiedName>
+			<![CDATA[				xmlns:my="clr-namespace:PlatformClient.CompositeCtrl;assembly=PlatformClient.CompositeCtrl"			]]>
+		</AssemblyQualifiedName>
+		<Functions Name="Function" >
+			<!--<Function Name="SelectionChanged" Description="选择事件" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />-->
+		</Functions>
+		<Events Name="Event">
+			<!--<Event Name="Click" Description="单击" BindFunctionName="ClickEvent" AssemblyName="PlatformClient.PageRuntime;PlatformClient.PageRuntime.Lib.EventBinding"
+				 EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />-->
+		</Events>
+		<PropertyCollection value="Height;高|Width;宽"/>
+	</Control>
+	
+	
+  <Control Name="XtnCtrlVarchar" Description="文本框控件" IsCompositeCtrl="true" DataType="CHAR|VARCHAR|TINYTEXT|TEXT|nchar|nvarchar|nvarchar|" >
+    <xaml>
+      <![CDATA[				<XtnBaseCtrl:XtnCtrlVarchar Name="??" Height="28" Width="180" Canvas.Left="30" Canvas.Top="30" {0}/>			]]>
+    </xaml>
+    <AssemblyQualifiedName>
+      <![CDATA[				xmlns:XtnBaseCtrl="clr-namespace:PlatformClient.CompositeCtrl.DataTypeCtrl;assembly=PlatformClient.CompositeCtrl"			]]>
+    </AssemblyQualifiedName>
+    <Functions Name="Function" />
+    <PropertyCollection value="TextValue;文件框值|Height;高|Width;宽"/>
+  </Control>
+  <Control Name="XtnCtrlPickerDate" Description="日期控件" IsCompositeCtrl="true" DataType="datetime|date|year" >
+    <xaml>
+      <![CDATA[	      <XtnBaseCtrl:XtnCtrlPickerDate Name="??" Height="28" Width="180" Canvas.Left="30" Canvas.Top="30" {0}/> ]]>
+    </xaml>
+    <AssemblyQualifiedName>
+      <![CDATA[       xmlns:XtnBaseCtrl="clr-namespace:PlatformClient.CompositeCtrl.DataTypeCtrl;assembly=PlatformClient.CompositeCtrl" ]]>
+    </AssemblyQualifiedName>
+    <Functions Name="Function" />
+    <PropertyCollection value="TextValue;文件框值|Height;高|Width;宽"/>
+  </Control>
+  <Control Name="XtnCtrlPickerTime" Description="时间控件" IsCompositeCtrl="true" DataType="time" >
+    <xaml>
+      <![CDATA[       <XtnBaseCtrl:XtnCtrlPickerTime Name="??" Height="28" Width="180" Canvas.Left="30" Canvas.Top="30" {0}/> ]]>
+    </xaml>
+    <AssemblyQualifiedName>
+      <![CDATA[       xmlns:XtnBaseCtrl="clr-namespace:PlatformClient.CompositeCtrl.DataTypeCtrl;assembly=PlatformClient.CompositeCtrl" ]]>
+    </AssemblyQualifiedName>
+    <Functions Name="Function" />
+    <PropertyCollection value="TextValue;文件框值|Height;高|Width;宽"/>
+  </Control>
+
+  <Control Name="XtnCtrlPickerDateTime" Description="日期时间控件" IsCompositeCtrl="true" DataType="datetime|smalldatetime|timestamp" >
+    <xaml>
+      <![CDATA[       <XtnBaseCtrl:XtnCtrlPickerDateTime Name="??" Height="28" Width="180" Canvas.Left="30" Canvas.Top="30" {0}/> ]]>
+    </xaml>
+    <AssemblyQualifiedName>
+      <![CDATA[       xmlns:XtnBaseCtrl="clr-namespace:PlatformClient.CompositeCtrl.DataTypeCtrl;assembly=PlatformClient.CompositeCtrl" ]]>
+    </AssemblyQualifiedName>
+    <Functions Name="Function" />
+    <PropertyCollection value="TextValue;文件框值|Height;高|Width;宽"/>
+  </Control>
+  
+  <Control Name="XtnCtrlBinary" Description="二进制控件" IsCompositeCtrl="true" DataType="BLOB|MEDIUMTEXT|MEDIUMBLOB|LONGTEXT|LONGBLOB" >
+    <xaml>
+      <![CDATA[				<XtnBaseCtrl:XtnCtrlBinary Name="??" Height="28" Width="180" Canvas.Left="30" Canvas.Top="30" {0}/>			]]>
+    </xaml>
+    <AssemblyQualifiedName>
+      <![CDATA[				xmlns:XtnBaseCtrl="clr-namespace:PlatformClient.CompositeCtrl.DataTypeCtrl;assembly=PlatformClient.CompositeCtrl"			]]>
+    </AssemblyQualifiedName>
+    <Functions Name="Function" />
+    <PropertyCollection value="TextValue;文件框值|Height;高|Width;宽"/>
+  </Control>
+  <Control Name="XtnCtrlDouble" Description="浮点精度控件" IsCompositeCtrl="true" DataType="Double|FLOAT|DECIMAL|" >
+    <xaml>
+      <![CDATA[				<XtnBaseCtrl:XtnCtrlDouble Name="??" Height="28" Width="180" Canvas.Left="30" Canvas.Top="30" {0}/>			]]>
+    </xaml>
+    <AssemblyQualifiedName>
+      <![CDATA[				xmlns:XtnBaseCtrl="clr-namespace:PlatformClient.CompositeCtrl.DataTypeCtrl;assembly=PlatformClient.CompositeCtrl"			]]>
+    </AssemblyQualifiedName>
+    <Functions Name="Function" />
+    <PropertyCollection value="TextValue;文件框值|Height;高|Width;宽"/>
+  </Control>
+  <Control Name="XtnCtrlInteger" Description="正数控件" IsCompositeCtrl="true" DataType="Integer|TINYINT|SMALLINT|MEDIUMINT|INT|BIGINT|" >
+    <xaml>
+      <![CDATA[				<XtnBaseCtrl:XtnCtrlInteger Name="??" Height="28" Width="180" Canvas.Left="30" Canvas.Top="30" {0}/>			]]>
+    </xaml>
+    <AssemblyQualifiedName>
+      <![CDATA[				xmlns:XtnBaseCtrl="clr-namespace:PlatformClient.CompositeCtrl.DataTypeCtrl;assembly=PlatformClient.CompositeCtrl"			]]>
+    </AssemblyQualifiedName>
+    <Functions Name="Function" />
+    <PropertyCollection value="TextValue;文件框值|Height;高|Width;宽"/>
+  </Control>
+  
+  <Control Name="XtnTextBox" Description="自定标文本框控件" IsCompositeCtrl="true" >
+    <xaml>
+      <![CDATA[				<my:XtnTextBox Name="??" Height="28" Width="180" Canvas.Left="30" Canvas.Top="30" {0}/>			]]>
+    </xaml>
+    <AssemblyQualifiedName>
+      <![CDATA[				xmlns:my="clr-namespace:PlatformClient.CompositeCtrl;assembly=PlatformClient.CompositeCtrl"			]]>
+    </AssemblyQualifiedName>
+    <Functions Name="Function" />
+    <PropertyCollection value="TextValue;文件框值|Height;高|Width;宽"/>
+  </Control>
+
+  <Control Name="XtnComboBox" Description="下拉控件" IsCompositeCtrl="true" >
+    <xaml>
+      <![CDATA[				<my:XtnComboBox Name="??" Height="28" Width="180" Canvas.Left="30" Canvas.Top="30" {0}/>			]]>
+    </xaml>
+    <AssemblyQualifiedName>
+      <![CDATA[				xmlns:my="clr-namespace:PlatformClient.CompositeCtrl;assembly=PlatformClient.CompositeCtrl"			]]>
+    </AssemblyQualifiedName>
+	  <Functions Name="Function" >
+		  <Function Name="SelectionChanged" Description="选择事件" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+	  </Functions>
+    <PropertyCollection value="TextValue;文件框值|Height;高|Width;宽"/>
+  </Control>
+
+  <Control Name="XtnDataGrid" Description="数据表格控件" IsCompositeCtrl="true" >
+    <xaml>
+      <![CDATA[				<my:XtnDataGrid Name="??" Height="300" Width="400" Canvas.Left="30" Canvas.Top="30" {0}/>			]]>
+    </xaml>
+    <AssemblyQualifiedName>
+      <![CDATA[				xmlns:my="clr-namespace:PlatformClient.CompositeCtrl;assembly=PlatformClient.CompositeCtrl"			]]>
+    </AssemblyQualifiedName>
+    <Functions Name="Function" >
+      <Function Name="SelectionChanged" Description="选择事件" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+    </Functions>
+    <PropertyCollection value="Height;高|Width;宽"/>
+  </Control>
+
+  <Control Name="XtnButton" Description="按钮(复合)" IsCompositeCtrl="true" >
+    <xaml>
+      <![CDATA[				<my:XtnButton Name="??" Height="30" Width="80" Canvas.Left="30" Canvas.Top="30" {0}/>			]]>
+    </xaml>
+    <AssemblyQualifiedName>
+      <![CDATA[				xmlns:my="clr-namespace:PlatformClient.CompositeCtrl;assembly=PlatformClient.CompositeCtrl"			]]>
+    </AssemblyQualifiedName>
+    <Functions Name="Function" >
+      <!--<Function Name="SelectionChanged" Description="选择事件" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />-->
+    </Functions>
+    <Events Name="Event">
+      <Event Name="Click" Description="单击" BindFunctionName="ClickEvent" AssemblyName="PlatformClient.PageRuntime;PlatformClient.PageRuntime.Lib.EventBinding"
+           EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+    </Events>
+    <PropertyCollection value="Height;高|Width;宽"/>
+  </Control>
+  
+  <Control Name="Button" Description="按钮" >
+    <xaml>
+      <![CDATA[				<Button Name="??" Content="Button" Height="30" Width="80" Canvas.Left="30" Canvas.Top="30" {0}/>			]]>
+    </xaml>
+    <Events Name="Event">
+      <Event Name="Click" Description="单击" BindFunctionName="ClickEvent" AssemblyName="PlatformClient.PageRuntime;PlatformClient.PageRuntime.Lib.EventBinding"
+           EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+    </Events>
+    <PropertyCollection value="Content;内容|Height;高|Width;宽"/>
+
+  </Control>
+  <Control Name="TextBox" Description="文本控件" >
+    <xaml>
+      <![CDATA[				<TextBox Name="??" Text="TextBox" Height="30" Width="70" Canvas.Left="30" Canvas.Top="30" {0} />			]]>
+    </xaml>
+    <Events>
+      <Event Name="LostFocus" Description="失去焦点" BindFunctionName="LostFocusEvent" AssemblyName="PlatformClient.PageRuntime;PlatformClient.PageRuntime.Lib.EventBinding" />
+      <Event Name="TextChanged" Description="内容改变" BindFunctionName="TextChangedEvent" AssemblyName="PlatformClient.PageRuntime;PlatformClient.PageRuntime.Lib.EventBinding" />
+    </Events>
+    <PropertyCollection value="Text;内容|Height;高|Width;宽"/>
+  </Control>
+  <Control Name="Label" Description="标签" >
+    <xaml>
+      <![CDATA[				<sdk:Label  Name="??"  Height="28" Width="180" Content="Label" Canvas.Left="30" Canvas.Top="30" {0}/>			]]>
+    </xaml>
+    <PropertyCollection value="Content;内容|Height;高|Width;宽"/>
+  </Control>
+
+  <Control Name="Form" Description="虚拟窗体" IsDisplay="false" >
+    <xaml>
+      <![CDATA[				<my:VirtualFormCtrl Name="??" Height="28" Width="180" Canvas.Left="30" Canvas.Top="30" {0}/>			]]>
+    </xaml>
+    <AssemblyQualifiedName>
+      <![CDATA[				xmlns:my="clr-namespace:PlatformClient.CompositeCtrl;assembly=PlatformClient.CompositeCtrl"			]]>
+    </AssemblyQualifiedName>
+    <Functions Name="Function">
+      <Function Name="InitLoad" Description="初始化" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="InitLoadComplate" Description="初始化完成" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="InitLoadByCondition" Description="条件初始化" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="InitLoadByConditionComplate" Description="条件初始化完成" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="Refresh" Description="刷新" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="RefreshComplate" Description="刷新完成" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="SaveToDB" Description="保存" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="SaveToDBSuccess" Description="保存成功" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="SaveToDBFailure" Description="保存失败" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="Delete" Description="删除" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="DeleteSuccess" Description="删除成功" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="DeleteFailure" Description="删除失败" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="OutputParameter" Description="输出参数" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="InputParameter" Description="输入参数" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="GetProperty" Description="获取属性" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+      <Function Name="SetProperty" Description="设置属性" EventDesigner="PlatformClient.EventDesign.Core;PlatformClient.EventDesign.Core.EventDesignMain" />
+    </Functions>
+  </Control>
+</Controls>
+

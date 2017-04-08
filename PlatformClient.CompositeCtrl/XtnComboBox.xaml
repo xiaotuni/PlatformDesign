@@ -1,0 +1,18 @@
+﻿<UserControl 
+    x:Class="PlatformClient.CompositeCtrl.XtnComboBox"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" 
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+    >
+    <Grid x:Name="LayoutRoot" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <sdk:Label Name="txtContent" Content="_显示内容_" HorizontalContentAlignment="Right" ></sdk:Label>
+        <ComboBox Grid.Column="1" Name="cbbDropDownList" />
+    </Grid>
+</UserControl>

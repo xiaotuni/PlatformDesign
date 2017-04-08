@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sequenceDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="页面加载">
+  <SequenceDesignerModelMoniker Id="7700d73a-5079-4a56-8d5c-5f03372e52ce" />
+  <nestedChildShapes>
+    <lifelineShape Id="29b3d06a-655a-4c19-b0d4-7d49534892bb" absoluteBounds="2.6250001589457193, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="e8d0e73b-d1cb-47ef-a5d1-112b824c0efe" LastKnownName="Config" />
+      <relativeChildShapes>
+        <dotNetLifelineHeadShape Id="42798a47-7486-4887-989e-0c3791c73181" absoluteBounds="2.2000001589457194, 0.6, 1, 0.4" customColor="184, 204, 215" visualStyleMode="Modified">
+          <lifelineMoniker Id="e8d0e73b-d1cb-47ef-a5d1-112b824c0efe" LastKnownName="Config" />
+          <relativeChildShapes />
+        </dotNetLifelineHeadShape>
+        <lifelineHoverShape Id="7498db81-76ef-4cd9-8eb3-db77904107c6" absoluteBounds="2.6250001589457193, 1, 0, 7">
+          <lifelineMoniker Id="e8d0e73b-d1cb-47ef-a5d1-112b824c0efe" LastKnownName="Config" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <lifelineShape Id="58f64ac9-c320-411e-b0fc-19cebdb464e4" absoluteBounds="5.1041665077209473, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="db88bcd3-ccc5-45ff-9f93-5c1f70a11678" LastKnownName="Lifeline2" />
+      <relativeChildShapes>
+        <dotNetLifelineHeadShape Id="7fd7c2f9-a56e-4713-9fac-e0a2da286918" absoluteBounds="4.6791665077209474, 0.6, 1, 0.4" customColor="184, 204, 215" visualStyleMode="Modified">
+          <lifelineMoniker Id="db88bcd3-ccc5-45ff-9f93-5c1f70a11678" LastKnownName="Lifeline2" />
+          <relativeChildShapes />
+        </dotNetLifelineHeadShape>
+        <lifelineHoverShape Id="6d7cc601-6381-4e5f-a15f-8014734febce" absoluteBounds="5.1041665077209473, 1, 0, 7">
+          <lifelineMoniker Id="db88bcd3-ccc5-45ff-9f93-5c1f70a11678" LastKnownName="Lifeline2" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <lifelineShape Id="9ec7b2bb-1955-47b8-bfe5-ecff07546b9d" absoluteBounds="1.025, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="d6a22cb2-2480-4c30-a6b0-a2b637409d5d" LastKnownName="Activity" />
+      <relativeChildShapes>
+        <dotNetLifelineHeadShape Id="76bfb1d2-9072-4b4e-9798-64cb5f750741" absoluteBounds="0.59999999999999987, 0.6, 1, 0.4" customColor="184, 204, 215" visualStyleMode="Modified">
+          <lifelineMoniker Id="d6a22cb2-2480-4c30-a6b0-a2b637409d5d" LastKnownName="Activity" />
+          <relativeChildShapes />
+        </dotNetLifelineHeadShape>
+        <lifelineHoverShape Id="2a7f3084-2e07-4577-be6d-b18e607e918f" absoluteBounds="1.025, 1, 0, 7">
+          <lifelineMoniker Id="d6a22cb2-2480-4c30-a6b0-a2b637409d5d" LastKnownName="Activity" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <commentShape Id="3a77a04c-5dd2-4029-9cde-3f9b6fdce208" absoluteBounds="4, 0.5, 1.25, 0.375" customColor="251, 247, 200">
+      <commentMoniker Id="dde022ad-ec4e-4b51-893d-9066bdc8520c" />
+      <relativeChildShapes />
+    </commentShape>
+    <commentConnector edgePoints="[(4 : 0.547115409068572); (2.70000015894572 : 1)]" fixedFrom="Caller" fixedTo="NotFixed" TargetRelationshipDomainClassId="217d6bd0-42ed-4e7f-ad2b-af3ef5142428" customColor="Black">
+      <relativeChildShapes />
+      <nodes>
+        <commentShapeMoniker Id="3a77a04c-5dd2-4029-9cde-3f9b6fdce208" />
+        <lifelineShapeMoniker Id="29b3d06a-655a-4c19-b0d4-7d49534892bb" />
+      </nodes>
+    </commentConnector>
+  </nestedChildShapes>
+</sequenceDesignerDiagram>

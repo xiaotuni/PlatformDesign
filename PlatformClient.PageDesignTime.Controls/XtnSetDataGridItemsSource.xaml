@@ -1,0 +1,69 @@
+﻿<UserControl xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" 
+    xmlns:Controls="clr-namespace:PlatformClient.PageDesignTime.Controls"  x:Class="PlatformClient.PageDesignTime.Controls.XtnSetDataGridItemsSource"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Height="500" 
+    Width="600">
+    <UserControl.Resources>
+        <Style x:Key="Choice" TargetType="sdk:DataGridColumnHeader">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="ContentTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <CheckBox x:Name="cbbAllChoice" Content="全/反选" Width="60" Click="cbbAllChoice_Click" />
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="hide" TargetType="sdk:DataGridColumnHeader">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="ContentTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <CheckBox x:Name="cbbAllChoice" Content="是否隐藏" Width="67"  Click="cbbAllHide_Click" />
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Controls:XtnDBTables Name="tables" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" />
+        <sdk:DataGrid Grid.Column="1" Name="dgTable" AutoGenerateColumns="False" >
+            <sdk:DataGrid.Columns>
+                <sdk:DataGridTemplateColumn Width="Auto" HeaderStyle="{StaticResource Choice}" >
+                    <sdk:DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox x:Name="cbbChoice" IsChecked="{Binding Path=IsChoose,Mode=TwoWay}" 
+                                      HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+                        </DataTemplate>
+                    </sdk:DataGridTemplateColumn.CellTemplate>
+                </sdk:DataGridTemplateColumn>
+                <sdk:DataGridTextColumn Header="字段" Binding="{Binding Path=column_name}" IsReadOnly="True"/>
+                <sdk:DataGridTextColumn Header="字段描述" Binding="{Binding Path=column_comment}" />
+                <sdk:DataGridTemplateColumn Width="Auto" HeaderStyle="{StaticResource hide}" >
+                    <sdk:DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox x:Name="cbbHide" IsChecked="{Binding Path=IsHide,Mode=TwoWay}" 
+                                      HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+                        </DataTemplate>
+                    </sdk:DataGridTemplateColumn.CellTemplate>
+                </sdk:DataGridTemplateColumn>
+            </sdk:DataGrid.Columns>
+        </sdk:DataGrid>
+
+        <!--<Button Grid.Row="1" Grid.Column="1" Content="保存" Height="30" Width="70" Name="btnSave"/>-->
+    </Grid>
+</UserControl>

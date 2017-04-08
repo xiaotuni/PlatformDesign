@@ -1,0 +1,29 @@
+﻿<UserControl
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" 
+    x:Class="PlatformClient.CompositeCtrl.XtnDataGrid"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <sdk:DataGrid Name="xtn_Data" AutoGenerateColumns="False" />
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" >
+            <Button Content="|&lt;" Name="btnFirstPage" />
+            <Button Content="&lt;" Name="btnPreviousPage"/>
+            <TextBlock Text="当前第" />
+            <TextBox Name="xtn_CurrentIndex" Text="1" />
+            <TextBlock Text="页/总共" />
+            <TextBlock Text="2" Name="txtPageCount" />
+            <TextBlock Text="页" />
+            <Button Content="&gt;" Name="btnNextPage" />
+            <Button Content="&gt;|" Name="btnLastPage" />
+        </StackPanel>
+    </Grid>
+</UserControl>

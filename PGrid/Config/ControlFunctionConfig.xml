@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CtrlFunctionConfig>
+  <Item Name="CtrlFuctionTypeInfo">
+    <CtrlFuctionTypeInfo Type="XtnTextBox">
+      <Functions Name="CtrlFuctionInfo">
+        <CtrlFuctionInfo Name="InitLoad" Description="初始化">
+          <Item Name="ParamInfo">
+            <ParamInfo OrgControlName="OrgControlName" OrgFieldType="OrgFieldType" OrgFieldName="OrgFieldName" TargetCtrlName="TargetCtrlName" TargetFieldName="TargetFieldName" TargetFieldType="TargetFieldType" />
+          </Item>
+        </CtrlFuctionInfo>
+        <CtrlFuctionInfo Name="ClearCtrlValue" Description="清空">
+          <Item Name="ParamInfo">
+            <ParamInfo OrgControlName="OrgControlName" OrgFieldType="OrgFieldType" OrgFieldName="OrgFieldName" TargetCtrlName="TargetCtrlName" TargetFieldName="TargetFieldName" TargetFieldType="TargetFieldType" />
+          </Item>
+        </CtrlFuctionInfo>
+      </Functions>
+    </CtrlFuctionTypeInfo>
+    <CtrlFuctionTypeInfo Type="XtnPassword">
+      <Functions Name="CtrlFuctionInfo">
+        <CtrlFuctionInfo Name="DefaultSave" Description="默认保存">
+          <Item Name="ParamInfo">
+            <ParamInfo OrgControlName="OrgControlName" OrgFieldType="OrgFieldType" OrgFieldName="OrgFieldName" TargetCtrlName="TargetCtrlName" TargetFieldName="TargetFieldName" TargetFieldType="TargetFieldType" />
+          </Item>
+        </CtrlFuctionInfo>
+        <CtrlFuctionInfo Name="DefaultSave" Description="默认保存">
+          <Item Name="ParamInfo">
+            <ParamInfo OrgControlName="OrgControlName" OrgFieldType="OrgFieldType" OrgFieldName="OrgFieldName" TargetCtrlName="TargetCtrlName" TargetFieldName="TargetFieldName" TargetFieldType="TargetFieldType" />
+          </Item>
+        </CtrlFuctionInfo>
+        <CtrlFuctionInfo Name="DefaultSave" Description="默认保存">
+          <Item Name="ParamInfo">
+            <ParamInfo OrgControlName="OrgControlName" OrgFieldType="OrgFieldType" OrgFieldName="OrgFieldName" TargetCtrlName="TargetCtrlName" TargetFieldName="TargetFieldName" TargetFieldType="TargetFieldType" />
+          </Item>
+        </CtrlFuctionInfo>
+      </Functions>
+    </CtrlFuctionTypeInfo>
+    <CtrlFuctionTypeInfo Type="XtnButton">
+      <Functions Name="CtrlFuctionInfo">
+        <CtrlFuctionInfo Name="DefaultSave" Description="默认保存" />
+      </Functions>
+    </CtrlFuctionTypeInfo>
+    <CtrlFuctionTypeInfo Type="XtnComboBox">
+      <Functions Name="CtrlFuctionInfo">
+        <CtrlFuctionInfo Name="SelectionChanged" Description="选择事件" />
+        <CtrlFuctionInfo Name="ChangeComboBoxValue" Description="联动更改下拉框数据" />
+        <CtrlFuctionInfo Name="Refresh" Description="刷新" />
+        <CtrlFuctionInfo Name="InitLoad" Description="初始化" />
+        <CtrlFuctionInfo Name="ClearCtrlValue" Description="清空" />
+      </Functions>
+    </CtrlFuctionTypeInfo>
+    <CtrlFuctionTypeInfo Type="XtnCtrlInteger">
+      <Functions Name="CtrlFuctionInfo">
+        <CtrlFuctionInfo Name="LostFocus" Description="失去焦点事件" />
+        <CtrlFuctionInfo Name="Refresh" Description="刷新" />
+        <CtrlFuctionInfo Name="InitLoad" Description="初始化" />
+        <CtrlFuctionInfo Name="ClearCtrlValue" Description="清空" />
+      </Functions>
+    </CtrlFuctionTypeInfo>
+    <CtrlFuctionTypeInfo Type="XtnCtrlDouble">
+      <Functions Name="CtrlFuctionInfo">
+        <CtrlFuctionInfo Name="LostFocus" Description="失去焦点事件" />
+        <CtrlFuctionInfo Name="Refresh" Description="刷新" />
+        <CtrlFuctionInfo Name="InitLoad" Description="初始化" />
+        <CtrlFuctionInfo Name="ClearCtrlValue" Description="清空" />
+      </Functions>
+    </CtrlFuctionTypeInfo>
+    <CtrlFuctionTypeInfo Type="XtnCtrlBinary">
+      <Functions Name="CtrlFuctionInfo">
+        <CtrlFuctionInfo Name="LostFocus" Description="失去焦点事件" />
+        <CtrlFuctionInfo Name="Refresh" Description="刷新" />
+        <CtrlFuctionInfo Name="InitLoad" Description="初始化" />
+        <CtrlFuctionInfo Name="ClearCtrlValue" Description="清空" />
+      </Functions>
+    </CtrlFuctionTypeInfo>
+    <CtrlFuctionTypeInfo Type="XtnCtrlPickerDateTime">
+      <Functions Name="CtrlFuctionInfo">
+        <CtrlFuctionInfo Name="LostFocus" Description="失去焦点事件" />
+        <CtrlFuctionInfo Name="SelectedDateChanged" Description="日期更改事件" />
+        <CtrlFuctionInfo Name="InitLoad" Description="初始化" />
+        <CtrlFuctionInfo Name="ClearCtrlValue" Description="清空" />
+      </Functions>
+    </CtrlFuctionTypeInfo>
+    <CtrlFuctionTypeInfo Type="XtnCtrlPickerTime">
+      <Functions Name="CtrlFuctionInfo">
+        <CtrlFuctionInfo Name="LostFocus" Description="失去焦点事件" />
+        <CtrlFuctionInfo Name="InitLoad" Description="初始化" />
+        <CtrlFuctionInfo Name="ClearCtrlValue" Description="清空" />
+      </Functions>
+    </CtrlFuctionTypeInfo>
+    <CtrlFuctionTypeInfo Type="XtnCtrlPickerDate">
+      <Functions Name="CtrlFuctionInfo">
+        <CtrlFuctionInfo Name="LostFocus" Description="失去焦点事件" />
+        <CtrlFuctionInfo Name="Refresh" Description="刷新" />
+        <CtrlFuctionInfo Name="InitLoad" Description="初始化" />
+        <CtrlFuctionInfo Name="ClearCtrlValue" Description="清空" />
+      </Functions>
+    </CtrlFuctionTypeInfo>
+    <CtrlFuctionTypeInfo Type="XtnCtrlVarchar">
+      <Functions Name="CtrlFuctionInfo">
+        <CtrlFuctionInfo Name="LostFocus" Description="失去焦点事件" />
+        <CtrlFuctionInfo Name="InitLoad" Description="初始化" />
+        <CtrlFuctionInfo Name="ClearCtrlValue" Description="清空" />
+      </Functions>
+    </CtrlFuctionTypeInfo>
+
+
+    <CtrlFuctionTypeInfo Type="Form">
+      <Functions Name="CtrlFuctionInfo">
+        <CtrlFuctionInfo Name="SaveToDB" Description="默认保存" />
+        <CtrlFuctionInfo Name="Delete" Description="默认删除" />
+        <CtrlFuctionInfo Name="Refresh" Description="刷新" />
+        <CtrlFuctionInfo Name="InitLoad" Description="初始化" />
+        <CtrlFuctionInfo Name="InitLoadByCondition" Description="条件初始化" />
+        <CtrlFuctionInfo Name="ClearCtrlValue" Description="清空" />
+        <CtrlFuctionInfo Name="InputParameter" Description="控件赋值" />
+      </Functions>
+    </CtrlFuctionTypeInfo>
+
+    <CtrlFuctionTypeInfo Type="XtnDataGrid">
+      <Functions Name="CtrlFuctionInfo">
+        <!--<CtrlFuctionInfo Name="SaveToDB" Description="默认保存" />-->
+        <CtrlFuctionInfo Name="Delete" Description="删除行" />
+        <CtrlFuctionInfo Name="Refresh" Description="刷新" />
+        <!--<CtrlFuctionInfo Name="InitLoad" Description="初始化" />-->
+        <CtrlFuctionInfo Name="InitLoadByCondition" Description="条件初始化" />
+        <CtrlFuctionInfo Name="ClearCtrlValue" Description="清空" />
+        <!--<CtrlFuctionInfo Name="InputParameter" Description="控件赋值" />-->
+      </Functions>
+    </CtrlFuctionTypeInfo>
+
+    <CtrlFuctionTypeInfo Type="XtnLogonForm">
+      <Functions Name="CtrlFuctionInfo">
+        <CtrlFuctionInfo Name="LoginSuccess" Description="登录成功" />
+        <CtrlFuctionInfo Name="Logout" Description="退出登录" />
+      </Functions>
+    </CtrlFuctionTypeInfo>
+
+  </Item>
+</CtrlFunctionConfig>
+
+<!--<Root>
+	<Control Name="VirtualFormControl">
+		<Params Type="fixed">
+			<PMetaData>
+			</PMetaData>
+		</Params>
+		<Init>
+			<MetaDataID Name="MetaDataId" CtrType=" 元数据" LogicName="元数据">
+			</MetaDataID>
+		</Init>
+		<Propertys>
+		</Propertys>
+		<Fuctions>
+			<Function Name="DefaultSave" Description="默认保存" />
+			<Function Name="DefaultSave" Description="默认删除" />
+		</Fuctions>
+	</Control>
+</Root>-->

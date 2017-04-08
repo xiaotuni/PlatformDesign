@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+	<Templet Name="PageMateDataSchema">
+		<PageBaseInfo>
+			<![CDATA[
+				<PageBaseInfo PageName="XXX页面" PageHeight="600" PageWidth="800" SerialNum="1" BackGroundColor="" PageGUID="6402929EC1E3406399ABAD894ED28E49" Charset="GB2312" Language="zh-cn"></PageBaseInfo>
+			]]>
+		</PageBaseInfo>
+		<MetaDataItem>
+			<![CDATA[
+			<MetaDataItem ></MetaDataItem>
+			]]>
+		</MetaDataItem>
+		<EventBindItem>
+			<![CDATA[
+			<EventBindItem ></EventBindItem>
+			]]>
+		</EventBindItem>
+		<ControlItem>
+			<![CDATA[
+			<ControlItem ></ControlItem>
+			]]>
+		</ControlItem>
+		<EventLinkItem>
+			<![CDATA[
+			<EventLinkItem></EventLinkItem>
+			]]>
+		</EventLinkItem>
+		<PageLoadingItem>
+			<![CDATA[
+			<PageLoadingItem></PageLoadingItem>
+			]]>
+		</PageLoadingItem>
+	</Templet>
+
+</Root>

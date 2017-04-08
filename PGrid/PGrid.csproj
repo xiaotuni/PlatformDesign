@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{38DDC770-3983-46CD-8818-5378438358A6}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PGrid</RootNamespace>
+    <AssemblyName>PGrid</AssemblyName>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>zh-Hans</SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>PGrid.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>PGrid.App</SilverlightAppEntry>
+    <TestPageFileName>PGridTestPage.html</TestPageFileName>
+    <CreateTestPage>true</CreateTestPage>
+    <ValidateXaml>true</ValidateXaml>
+    <EnableOutOfBrowser>false</EnableOutOfBrowser>
+    <OutOfBrowserSettingsFile>Properties\OutOfBrowserSettings.xml</OutOfBrowserSettingsFile>
+    <UsePlatformExtensions>false</UsePlatformExtensions>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <LinkedServerProject>
+    </LinkedServerProject>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <!-- This property group is only here to support building this project using the 
+       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
+       to set the TargetFrameworkVersion to v3.5 -->
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Bin\Debug\PGrid.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System.ComponentModel.DataAnnotations, Version=2.0.5.0, Culture=neutral, PublicKeyToken=ddd0da4d3e678217, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.ServiceModel.PollingDuplex, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Controls, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Data.Input, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Input.Toolkit, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Toolkit, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Browser" />
+    <Reference Include="System.Xml.Linq, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Content Include="Config\ControlFunctionConfig.xml" />
+    <Compile Include="DesigningPage.xaml.cs">
+      <DependentUpon>DesigningPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PCFramework.xaml.cs">
+      <DependentUpon>PCFramework.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="DesigningPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PCFramework.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\ActivityConfig.xml" />
+    <Content Include="XMLFile1.xml" />
+    <None Include="Properties\AppManifest.xml" />
+    <Content Include="Config\PageTemplet.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ServiceReferences.ClientConfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PlatformClient.Common\PlatformClient.Common.csproj">
+      <Project>{8BFCFE2C-104B-47F7-A245-4208E1D2F30C}</Project>
+      <Name>PlatformClient.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.CompositeCtrl\PlatformClient.CompositeCtrl.csproj">
+      <Project>{B871A2BB-D85C-448F-A2F3-73885171B9A5}</Project>
+      <Name>PlatformClient.CompositeCtrl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.DataBaseDesign\PlatformClient.DataBaseDesign.csproj">
+      <Project>{00D10D5B-3F17-4C49-9BFD-86CCA4E7AD93}</Project>
+      <Name>PlatformClient.DataBaseDesign</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.EventDesign.Activity\PlatformClient.EventDesign.Activity.csproj">
+      <Project>{49B761F9-A173-42FC-AEFF-434003D544AE}</Project>
+      <Name>PlatformClient.EventDesign.Activity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.EventDesign.Core\PlatformClient.EventDesign.Core.csproj">
+      <Project>{166CCFFF-1440-4A56-98AB-9B43A6156EB5}</Project>
+      <Name>PlatformClient.EventDesign.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.Model\PlatformClient.Model.csproj">
+      <Project>{4743252E-17CF-4CDE-827D-B13B1C047B1D}</Project>
+      <Name>PlatformClient.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.PageDesignTime.Controls\PlatformClient.PageDesignTime.Controls.csproj">
+      <Project>{04A892FE-389B-4A21-B29B-BBE66EE30340}</Project>
+      <Name>PlatformClient.PageDesignTime.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.PageDesignTime\PlatformClient.PageDesignTime.csproj">
+      <Project>{54BE62E6-1CCE-497F-A653-3CACA11C9D6E}</Project>
+      <Name>PlatformClient.PageDesignTime</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.PageRuntime\PlatformClient.PageRuntime.csproj">
+      <Project>{83BEFC4F-C1C9-477F-BACC-F9BBC99EA13D}</Project>
+      <Name>PlatformClient.PageRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.PropertyGrid\PlatformClient.PropertyGrid.csproj">
+      <Project>{1530B50A-3AB1-4354-A855-486CCBA6C04D}</Project>
+      <Name>PlatformClient.PropertyGrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.Selectors.Core\PlatformClient.Selectors.Core.csproj">
+      <Project>{43E01D0A-F265-4623-A283-C0341E7F1381}</Project>
+      <Name>PlatformClient.Selectors.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.Utility\PlatformClient.Utility.csproj">
+      <Project>{46E04C2B-379C-40EE-BFC5-84A7C914C5D3}</Project>
+      <Name>PlatformClient.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient\PlatformClient.csproj">
+      <Project>{57621E48-A301-4948-8571-DE373023D353}</Project>
+      <Name>PlatformClient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\ControlConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\ControlTemplet.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

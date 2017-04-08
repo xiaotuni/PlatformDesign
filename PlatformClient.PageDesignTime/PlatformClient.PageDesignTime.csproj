@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{54BE62E6-1CCE-497F-A653-3CACA11C9D6E}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PlatformClient.PageDesignTime</RootNamespace>
+    <AssemblyName>PlatformClient.PageDesignTime</AssemblyName>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <!-- This property group is only here to support building this project using the 
+       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
+       to set the TargetFrameworkVersion to v3.5 -->
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Bin\Debug\PlatformClient.PageDesignTime.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System.ComponentModel.DataAnnotations, Version=2.0.5.0, Culture=neutral, PublicKeyToken=ddd0da4d3e678217">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Controls, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Data, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Data.Input, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Input, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Input.Toolkit, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Toolkit, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Toolkit.Internals, Version=4.0.5.0, Culture=neutral, PublicKeyToken=2c5c654d367bf4a7">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Browser" />
+    <Reference Include="System.Xml.Linq, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auchor.xaml.cs">
+      <DependentUpon>Auchor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DesignRectangle.xaml.cs">
+      <DependentUpon>DesignRectangle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageDesignFramework.xaml.cs">
+      <DependentUpon>PageDesignFramework.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PCCanvas.xaml.cs">
+      <DependentUpon>PCCanvas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Lib\ResizeEventArgs.cs" />
+    <Compile Include="Lib\ResizeHelper.cs" />
+    <Compile Include="PageDesign.xaml.cs">
+      <DependentUpon>PageDesign.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageWorkArea.xaml.cs">
+      <DependentUpon>PageWorkArea.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageWorkAreaGroup.xaml.cs">
+      <DependentUpon>PageWorkAreaGroup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SetStart\BootManager.xaml.cs">
+      <DependentUpon>BootManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabItemHeader.xaml.cs">
+      <DependentUpon>TabItemHeader.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Auchor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DesignRectangle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageDesignFramework.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageDesign.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageWorkArea.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageWorkAreaGroup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PCCanvas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SetStart\BootManager.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TabItemHeader.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PlatformClient.Common\PlatformClient.Common.csproj">
+      <Project>{8BFCFE2C-104B-47F7-A245-4208E1D2F30C}</Project>
+      <Name>PlatformClient.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.CompositeCtrl\PlatformClient.CompositeCtrl.csproj">
+      <Project>{B871A2BB-D85C-448F-A2F3-73885171B9A5}</Project>
+      <Name>PlatformClient.CompositeCtrl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.DataBaseDesign\PlatformClient.DataBaseDesign.csproj">
+      <Project>{00D10D5B-3F17-4C49-9BFD-86CCA4E7AD93}</Project>
+      <Name>PlatformClient.DataBaseDesign</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.Extend.Core\PlatformClient.Extend.Core.csproj">
+      <Project>{2d1b57b1-6e61-4183-965b-c3dc62720d45}</Project>
+      <Name>PlatformClient.Extend.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.Model\PlatformClient.Model.csproj">
+      <Project>{4743252E-17CF-4CDE-827D-B13B1C047B1D}</Project>
+      <Name>PlatformClient.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.PageDesignTime.Controls\PlatformClient.PageDesignTime.Controls.csproj">
+      <Project>{04A892FE-389B-4A21-B29B-BBE66EE30340}</Project>
+      <Name>PlatformClient.PageDesignTime.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.PropertyGrid\PlatformClient.PropertyGrid.csproj">
+      <Project>{1530B50A-3AB1-4354-A855-486CCBA6C04D}</Project>
+      <Name>PlatformClient.PropertyGrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient.Utility\PlatformClient.Utility.csproj">
+      <Project>{46E04C2B-379C-40EE-BFC5-84A7C914C5D3}</Project>
+      <Name>PlatformClient.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlatformClient\PlatformClient.csproj">
+      <Project>{57621E48-A301-4948-8571-DE373023D353}</Project>
+      <Name>PlatformClient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\close.png" />
+    <Resource Include="Resources\Images\update.png" />
+    <Resource Include="Resources\Images\save.png" />
+    <Resource Include="Resources\Images\saveAll.png" />
+    <Resource Include="Resources\Images\view.png" />
+    <Resource Include="Resources\Images\create_form.gif" />
+    <Resource Include="Resources\Images\review_browser.gif" />
+    <Resource Include="Resources\Images\trash.gif" />
+    <Resource Include="Resources\Images\warning.gif" />
+    <Resource Include="Resources\Images\Close_1.png" />
+    <Resource Include="Resources\Images\Create_Page.png" />
+    <Resource Include="Resources\Images\review_browser.png" />
+    <Resource Include="Resources\Images\trash.png" />
+    <Resource Include="Resources\Images\closeBtn.png" />
+    <Resource Include="Resources\Images\closeBtn_Hover.png" />
+    <Resource Include="Resources\Images\paraformatentry_over.png" />
+    <Resource Include="Resources\Images\CreateFolder.png" />
+    <Resource Include="Resources\Images\CreatePage.png" />
+    <Resource Include="Resources\Images\Refresh.png" />
+    <Resource Include="Resources\Images\Rename.png" />
+    <Resource Include="Resources\Images\DBView.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,45 @@
+﻿<UserControl 
+    x:Class="PlatformClient.CompositeCtrl.Chat.XtnMainChat"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" 
+    d:DesignWidth="400"
+    >
+    <Grid x:Name="LayoutRoot" Width="400" Height="300">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="用户列表" />
+        <StackPanel Grid.Column="1" Orientation="Horizontal" >
+            <Button Name="btnConnection" Content="Connect" />
+            <Button Name="btnDisConnection" Content="Disconnect"/>
+            <Button Name="btnClear" Content="Clear"/>
+        </StackPanel>
+        <ListBox Name="lbUsers" Grid.Row="1" />
+        <Grid Grid.Column="1" Grid.Row="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <ListBox Name="lbContent" />
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBox Name="txtMsg" />
+                <Button Name="btnSay" Content="Say" Grid.Column="1" />
+                <Button Name="btnWhisper" Content="Whisper" Grid.Column="2" />
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

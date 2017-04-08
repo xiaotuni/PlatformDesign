@@ -1,0 +1,24 @@
+﻿<UserControl 
+    x:Class="PlatformClient.Selectors.Core.ApiSelectors.ApiSetPropertyValue"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" 
+    d:DesignWidth="800"
+    xmlns:my="clr-namespace:PlatformClient.PageDesignTime.Controls;assembly=PlatformClient.PageDesignTime.Controls">
+
+    <Grid x:Name="LayoutRoot" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="60" />
+        </Grid.ColumnDefinitions>
+        <my:XtnCtrlTree Grid.Column="0" Name="ct" />
+        <StackPanel Grid.Column="1" Name="sp_Children" />
+        <my:PageFileTreeManager Grid.Column="2" Name="pfm" />
+        <Button Grid.Column="3" Height="30" Content=" 确  定 " Name="btnOK"/>
+    </Grid>
+</UserControl>

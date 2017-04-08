@@ -1,0 +1,16 @@
+﻿<Grid 
+    x:Class="PlatformClient.EventDesign.Core.Activitys.XtnBaseActivity"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" 
+    Height="40" 
+    Width="100" 
+    Canvas.ZIndex="10" 
+    Background="#5280B784"
+    >
+    <TextBlock Name="txtCommon" Visibility="Visible" Canvas.ZIndex="5" Text="demo activity" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Stretch" />
+    <Ellipse Name="eDot" Height="40" Stroke="#FFE2CE14" StrokeThickness="13" Opacity="0.5"
+                 Width="40" Canvas.ZIndex="100" />
+</Grid>

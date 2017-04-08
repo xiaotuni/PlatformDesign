@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Activitys>
+  <Activity Name="BeginActivity" Description="开始节点" AssemblyQualifiedName="PlatformClient.EventDesign;PlatformClient.EventDesign.Activitys.BeginActivity" />
+  <Activity Name="EndActivity" Description="结束节点" AssemblyQualifiedName="PlatformClient.EventDesign;PlatformClient.EventDesign.Activitys.EndActivity" />
+  <Activity Name="JudgeActivity" Description="判断节点" AssemblyQualifiedName="PlatformClient.EventDesign;PlatformClient.EventDesign.Activitys.JudgeActivity" />
+  <Activity Name="LabelActivity" Description="标签节点" AssemblyQualifiedName="PlatformClient.EventDesign;PlatformClient.EventDesign.Activitys.LabelActivity" />
+</Activitys>

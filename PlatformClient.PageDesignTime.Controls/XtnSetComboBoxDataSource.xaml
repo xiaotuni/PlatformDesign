@@ -1,0 +1,40 @@
+﻿<UserControl 
+    xmlns:my="clr-namespace:PlatformClient.PageDesignTime.Controls" 
+    x:Class="PlatformClient.PageDesignTime.Controls.XtnSetComboBoxDataSource"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Height="400" Width="600">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition  />
+            <ColumnDefinition Width="240" />
+        </Grid.ColumnDefinitions>
+        <my:XtnDBTables Grid.Column="0" x:Name="tables" />
+        <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+            <ListBox Name="lboxFields" />
+        </ScrollViewer>
+
+        <Grid Grid.Column="2" VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="20"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <TextBox Grid.Row="0" Name="txtSaveField" />
+            <Button  Grid.Row="1" Name="btnSaveField" Content="保存字段" Height="30" Width="70" />
+            <TextBox Grid.Row="2" Name="txtBindField" />
+            <Button  Grid.Row="3" Name="btnBindField" Content="显示字段" Height="30" Width="70"/>
+
+            <!--<Button Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Name="btnOK" Content=" 确   定 " Height="30" Width="80" />-->
+        </Grid>
+    </Grid>
+</UserControl>

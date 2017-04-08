@@ -1,0 +1,57 @@
+﻿<my:BaseControl 
+    xmlns:my="clr-namespace:PlatformClient;assembly=PlatformClient"
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"  
+    x:Class="PlatformClient.PageDesignTime.Controls.PageFileTree"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="200" 
+    >
+    <my:BaseControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Height" Value="25" />
+            <Setter Property="Margin" Value="2,1,2,4" />
+        </Style>
+    </my:BaseControl.Resources>
+    <Border BorderThickness="1" CornerRadius="10">
+        <Grid x:Name="LayoutRoot">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <sdk:TreeView Name="tvPageManager" >
+                <sdk:TreeViewItem Header="页面管理器" Name="tviRoot" Width="Auto" />
+            </sdk:TreeView>
+            <StackPanel Grid.Row="1" Orientation="Horizontal" Name="sp_toolbar">
+                <Button ToolTipService.ToolTip="添加页面" Name="btnAdd" >
+                    <Image Source="/PlatformClient.PageDesignTime;component/Resources/Images/CreatePage.png" />
+                </Button>
+                <Button ToolTipService.ToolTip="添加目录" Name="btnAddDirectory" >
+                    <Image Source="/PlatformClient.PageDesignTime;component/Resources/Images/CreateFolder.png" 
+                     Stretch="Fill" />
+                </Button>
+                <Button ToolTipService.ToolTip="修改" Name="btnModify" >
+                    <Image Source="/PlatformClient.PageDesignTime;component/Resources/Images/Rename.png" 
+                     Stretch="Fill"
+                       />
+                </Button>
+                <Button ToolTipService.ToolTip="删  除" Name="btnDelete" >
+                    <Image Source="/PlatformClient.PageDesignTime;component/Resources/Images/trash.png" 
+                       Stretch="Fill" />
+                </Button>
+                <Button ToolTipService.ToolTip="刷新" Name="btnRefresh" >
+                    <Image Source="/PlatformClient.PageDesignTime;component/Resources/Images/Refresh.png" 
+                     Stretch="Fill"
+                       />
+                </Button>
+            </StackPanel>
+            <my:BaseControl HorizontalAlignment="Left" Margin="216,169,0,0" Name="baseControl1" VerticalAlignment="Top" />
+        </Grid>
+    </Border>
+</my:BaseControl>

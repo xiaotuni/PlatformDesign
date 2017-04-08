@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="PlatformClient.PropertyGrid.PropertyGridEventBindCtrl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+ d:DesignHeight="26" d:DesignWidth="100">
+    <Grid x:Name="LayoutRoot" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.Column="2" Name="txtValue" IsEnabled="False" />
+        <TextBlock Grid.Column="0" Name="txtTitle" VerticalAlignment="Center" Text="aa"  Margin="5,0,2,0" HorizontalAlignment="Center" />
+        <Button Grid.Column="1" Height="20" Name="btnOK" Content="..." Click="Button_Click" Margin="2,0,2,0" />
+    </Grid>
+</UserControl>

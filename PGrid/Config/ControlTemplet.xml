@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+	<Templet Name="UserControl">
+		<Header>
+			<![CDATA[
+<UserControl mc:Ignorable="d" {0} >
+    <Canvas x:Name="LayoutRoot" Background="White">
+			]]>
+		</Header>
+		<AssemblyQualifiedName>
+			<item>
+				<![CDATA[
+					xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+				]]>
+			</item>
+			<item>
+				<![CDATA[
+					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+				]]>
+			</item>
+			<item>
+				<![CDATA[
+					xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+				]]>
+			</item>
+			<item>
+				<![CDATA[
+					xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+				]]>
+			</item>
+			<item>
+				<![CDATA[
+				xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+				]]>
+			</item>
+		</AssemblyQualifiedName>
+		<Tail>
+			<![CDATA[
+    </Canvas>
+</UserControl>
+			]]>
+		</Tail>
+	</Templet>
+</Root>

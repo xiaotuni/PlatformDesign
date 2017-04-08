@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PlatformService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PlatformService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="PlatformCommandInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CommandName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CommandType" type="tns:CommandDirectionType" />
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExecSql" nillable="true" type="tns:ArrayOfExecSQLCmd" />
+      <xs:element minOccurs="0" name="ExecuteNonQueryResult" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FromModel" type="tns:CommandDirectionType" />
+      <xs:element minOccurs="0" name="ParamCollection" nillable="true">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:any minOccurs="0" processContents="lax" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="PublicValue" nillable="true">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:any minOccurs="0" processContents="lax" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TempValue" nillable="true">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:any minOccurs="0" processContents="lax" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="ToModel" type="tns:CommandDirectionType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PlatformCommandInfo" nillable="true" type="tns:PlatformCommandInfo" />
+  <xs:simpleType name="CommandDirectionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CompositeControl" />
+      <xs:enumeration value="DB" />
+      <xs:enumeration value="Message" />
+      <xs:enumeration value="ClientUI" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="CommandDirectionType" nillable="true" type="tns:CommandDirectionType" />
+  <xs:complexType name="ArrayOfExecSQLCmd">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ExecSQLCmd" nillable="true" type="tns:ExecSQLCmd" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfExecSQLCmd" nillable="true" type="tns:ArrayOfExecSQLCmd" />
+  <xs:complexType name="ExecSQLCmd">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CtrlName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Error" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExecType" type="tns:ExecSqlCmdType" />
+      <xs:element minOccurs="0" name="MethodName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Result" nillable="true">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:any minOccurs="0" processContents="lax" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="Sql" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ExecSQLCmd" nillable="true" type="tns:ExecSQLCmd" />
+  <xs:simpleType name="ExecSqlCmdType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ExecuteNonQuery" />
+      <xs:enumeration value="Query" />
+      <xs:enumeration value="ExecuteScalar" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ExecSqlCmdType" nillable="true" type="tns:ExecSqlCmdType" />
+</xs:schema>

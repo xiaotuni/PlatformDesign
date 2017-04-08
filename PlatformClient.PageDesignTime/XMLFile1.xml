@@ -1,0 +1,3209 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PageMateDataSchema>
+  <PageBaseInfo PageName="xxx页面" PageHeight="600" PageWidth="800" SerialNum="1" BackGroundColor="" PageGUID="6402929EC1E3406399ABAD894ED28E49" Charset="GB2312" Language="zh-cn" />
+  <MetaDatas>
+    <MetaData TableName="table1">
+      <column FieldName="字段名称" />
+    </MetaData>
+  </MetaDatas>
+  <MetaData>
+    <s id="NT_FINFO" logicname="外国人基本信息表">
+      <extInfo />
+      <m>
+        <ch><![CDATA[创建时间]]></ch>
+        <en>CREATETIME</en>
+        <t>System.DateTime</t>
+        <l>0</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>False</isshown>
+        <issysfield>0</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[创建人]]></ch>
+        <en>CREATOR</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>False</isshown>
+        <issysfield>0</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[关键字]]></ch>
+        <en>KEYID</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>False</isshown>
+        <issysfield>0</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[逻辑删除]]></ch>
+        <en>LOGICDEL</en>
+        <t>System.String</t>
+        <l>2</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>False</isshown>
+        <issysfield>0</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[资源ID]]></ch>
+        <en>RESOURCEID</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>False</isshown>
+        <issysfield>0</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[角色ID]]></ch>
+        <en>ROLEID</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>False</isshown>
+        <issysfield>0</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[工作流实例ID]]></ch>
+        <en>WFINSID</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>False</isshown>
+        <issysfield>0</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[工作流实例节点ID]]></ch>
+        <en>WFNINSID</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>False</isshown>
+        <issysfield>0</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[境内住址]]></ch>
+        <en>ADDRESS</en>
+        <t>System.String</t>
+        <l>100</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[出生地]]></ch>
+        <en>BIRADDRESS</en>
+        <t>System.String</t>
+        <l>100</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[出生日期]]></ch>
+        <en>BIRTHDAY</en>
+        <t>System.DateTime</t>
+        <l>10</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[国籍中文]]></ch>
+        <en>CCOUNTRY</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[中文姓名]]></ch>
+        <en>CHNNAME</en>
+        <t>System.String</t>
+        <l>20</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[入境次数中文]]></ch>
+        <en>COLDVISATIME</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt>db</vt>
+        <r n="VISATIME">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[签证种类中文]]></ch>
+        <en>COLDVISATYPE</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[来华事由]]></ch>
+        <en>COMECAUSE</en>
+        <t>System.String</t>
+        <l>200</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt>db</vt>
+        <r n="RESIRESN">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[接待单位]]></ch>
+        <en>COMPANY</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[国籍]]></ch>
+        <en>COUNTRY</en>
+        <t>System.String</t>
+        <l>3</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[证件类型中文]]></ch>
+        <en>CPASSTYPE</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[派出所中文]]></ch>
+        <en>CPOLICESTATION</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[性别]]></ch>
+        <en>CSEX</en>
+        <t>System.String</t>
+        <l>10</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt>db</vt>
+        <r n="SEX">
+          <p idx="0" v="SEX" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>0</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[EMAIL]]></ch>
+        <en>EMAIL</en>
+        <t>System.String</t>
+        <l>100</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[英文名]]></ch>
+        <en>ENGIVENAME</en>
+        <t>System.String</t>
+        <l>100</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[英文姓]]></ch>
+        <en>ENSURNAME</en>
+        <t>System.String</t>
+        <l>100</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[兼职人员]]></ch>
+        <en>FREELANCETRANSLATOR</en>
+        <t>System.String</t>
+        <l>100</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[身份证号码]]></ch>
+        <en>IDNO</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[是否是老用户]]></ch>
+        <en>ISOLDCUSTOMER</en>
+        <t>System.String</t>
+        <l>10</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[签发地]]></ch>
+        <en>OLDAPPRADDRESS</en>
+        <t>System.String</t>
+        <l>100</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[签发日期]]></ch>
+        <en>OLDAPPRDATE</en>
+        <t>System.DateTime</t>
+        <l>10</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[签证号码]]></ch>
+        <en>OLDVISANO</en>
+        <t>System.String</t>
+        <l>25</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[入境次数]]></ch>
+        <en>OLDVISATIME</en>
+        <t>System.String</t>
+        <l>10</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt>db</vt>
+        <r n="VISATIME">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[签证种类]]></ch>
+        <en>OLDVISATYPE</en>
+        <t>System.String</t>
+        <l>10</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[签证有效期]]></ch>
+        <en>OLDVISAVALI</en>
+        <t>System.DateTime</t>
+        <l>10</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[证件号码]]></ch>
+        <en>PASSNO</en>
+        <t>System.String</t>
+        <l>16</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[证件类型]]></ch>
+        <en>PASSTYPE</en>
+        <t>System.String</t>
+        <l>20</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt>db</vt>
+        <r n="PASSTYPE">
+          <p idx="0" v="PASSTYPE" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[证件有效期]]></ch>
+        <en>PASSVALI</en>
+        <t>System.DateTime</t>
+        <l>10</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[派出所]]></ch>
+        <en>POLICESTATION</en>
+        <t>System.String</t>
+        <l>13</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[居留事由]]></ch>
+        <en>RESIDENCECAUSE</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[入境时间]]></ch>
+        <en>RJTIME</en>
+        <t>System.DateTime</t>
+        <l>10</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[固定电话]]></ch>
+        <en>TELEPHONE</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[紧急联系人]]></ch>
+        <en>URGENTP</en>
+        <t>System.String</t>
+        <l>30</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[紧急联系电话]]></ch>
+        <en>URGENTTEL</en>
+        <t>System.String</t>
+        <l>50</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[偕行人数]]></ch>
+        <en>XXR</en>
+        <t>System.Int32</t>
+        <l>4</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt>db</vt>
+        <r n="XXR">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+      <m>
+        <ch><![CDATA[职务]]></ch>
+        <en>ZW</en>
+        <t>System.String</t>
+        <l>20</l>
+        <i>True</i>
+        <p>0</p>
+        <d></d>
+        <ds></ds>
+        <pv></pv>
+        <vt></vt>
+        <r n="">
+          <p idx="0" v="" />
+        </r>
+        <isshown>True</isshown>
+        <issysfield>1</issysfield>
+      </m>
+    </s>
+  </MetaData>
+  <DataBindSet>
+    <i tn="WRAPPANEL" n="FORMBIND_WRAPPANEL1" ln="外国人基本信息表" mdid="NT_FINFO" b="1" />
+  </DataBindSet>
+  <EventBindSet>
+    <i tn="Button" n="Button9">
+      <e n="Click" cn="">
+        <p t="" />
+      </e>
+    </i>
+    <i tn="Button" n="Button8">
+      <e n="Click" cn="">
+        <p t="" />
+      </e>
+    </i>
+  </EventBindSet>
+  <MaskDefineSet />
+  <CompCtrls>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_ENGIVENAME" CtrType="CommonCtrl" LogicName="英文名">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[英文名]]></ch>
+              <en>ENGIVENAME</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules>
+          <rule name="EnglishNameVaildata" error="请输入正确的英文姓名" expression="(^[a-z,A-Z][a-z,A-Z,']*$)" />
+        </rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_ENSURNAME" CtrType="CommonCtrl" LogicName="英文姓">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[英文姓]]></ch>
+              <en>ENSURNAME</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules>
+          <rule name="EnglishNameVaildata" error="请输入正确的英文姓名" expression="(^[a-z,A-Z][a-z,A-Z,']*$)" />
+        </rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_BIRTHDAY" CtrType="CommonCtrl" LogicName="出生日期">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[出生日期]]></ch>
+              <en>BIRTHDAY</en>
+              <t>System.DateTime</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="DatePicker" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_CHNNAME" CtrType="CommonCtrl" LogicName="中文姓名">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[中文姓名]]></ch>
+              <en>CHNNAME</en>
+              <t>System.String</t>
+              <l>20</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules>
+          <rule name="ChineseNameVaildata" error="请输入正确的中文姓名" expression="(^[\u4E00-\u9FFF]+$)" />
+        </rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_CREATETIME" CtrType="CommonCtrl" LogicName="创建时间">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[创建时间]]></ch>
+              <en>CREATETIME</en>
+              <t>System.DateTime</t>
+              <l>0</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_CREATOR" CtrType="CommonCtrl" LogicName="创建人">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[创建人]]></ch>
+              <en>CREATOR</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_KEYID" CtrType="CommonCtrl" LogicName="关键字">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[关键字]]></ch>
+              <en>KEYID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_LOGICDEL" CtrType="CommonCtrl" LogicName="逻辑删除">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[逻辑删除]]></ch>
+              <en>LOGICDEL</en>
+              <t>System.String</t>
+              <l>2</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_RESOURCEID" CtrType="CommonCtrl" LogicName="资源ID">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[资源ID]]></ch>
+              <en>RESOURCEID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_ROLEID" CtrType="CommonCtrl" LogicName="角色ID">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[角色ID]]></ch>
+              <en>ROLEID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_WFINSID" CtrType="CommonCtrl" LogicName="工作流实例ID">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[工作流实例ID]]></ch>
+              <en>WFINSID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_WFNINSID" CtrType="CommonCtrl" LogicName="工作流实例节点ID">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[工作流实例节点ID]]></ch>
+              <en>WFNINSID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_CSEX" CtrType="CommonCtrl" LogicName="性别">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[性别]]></ch>
+              <en>CSEX</en>
+              <t>System.String</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt>db</vt>
+              <r n="SEX">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="ComboBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_BIRADDRESS" CtrType="CommonCtrl" LogicName="出生地">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[出生地]]></ch>
+              <en>BIRADDRESS</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_IDNO" CtrType="CommonCtrl" LogicName="身份证号码">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[身份证号码]]></ch>
+              <en>IDNO</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_PASSVALI" CtrType="CommonCtrl" LogicName="证件有效期">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[证件有效期]]></ch>
+              <en>PASSVALI</en>
+              <t>System.DateTime</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="DatePicker" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_XXR" CtrType="CommonCtrl" LogicName="偕行人数">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[偕行人数]]></ch>
+              <en>XXR</en>
+              <t>System.Int32</t>
+              <l>4</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt>db</vt>
+              <r n="XXR">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="ComboBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_PASSTYPE" CtrType="CommonCtrl" LogicName="证件类型">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[证件类型]]></ch>
+              <en>PASSTYPE</en>
+              <t>System.String</t>
+              <l>20</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt>db</vt>
+              <r n="PASSTYPE">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="ComboBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_OLDVISANO" CtrType="CommonCtrl" LogicName="签证号码">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[签证号码]]></ch>
+              <en>OLDVISANO</en>
+              <t>System.String</t>
+              <l>25</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_OLDAPPRDATE" CtrType="CommonCtrl" LogicName="签发日期">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[签发日期]]></ch>
+              <en>OLDAPPRDATE</en>
+              <t>System.DateTime</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="DatePicker" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_OLDAPPRADDRESS" CtrType="CommonCtrl" LogicName="签发地">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[签发地]]></ch>
+              <en>OLDAPPRADDRESS</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_RJTIME" CtrType="CommonCtrl" LogicName="入境时间">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[入境时间]]></ch>
+              <en>RJTIME</en>
+              <t>System.DateTime</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="DatePicker" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_OLDVISATIME" CtrType="CommonCtrl" LogicName="入境次数">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[入境次数]]></ch>
+              <en>OLDVISATIME</en>
+              <t>System.String</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt>db</vt>
+              <r n="VISATIME">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="ComboBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_OLDVISAVALI" CtrType="CommonCtrl" LogicName="签证有效期">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[签证有效期]]></ch>
+              <en>OLDVISAVALI</en>
+              <t>System.DateTime</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="DatePicker" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_COMECAUSE" CtrType="CommonCtrl" LogicName="来华事由">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[来华事由]]></ch>
+              <en>COMECAUSE</en>
+              <t>System.String</t>
+              <l>200</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt>db</vt>
+              <r n="RESIRESN">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="ComboBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_ZW" CtrType="CommonCtrl" LogicName="职务">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[职务]]></ch>
+              <en>ZW</en>
+              <t>System.String</t>
+              <l>20</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_RESIDENCECAUSE" CtrType="CommonCtrl" LogicName="居留事由">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[居留事由]]></ch>
+              <en>RESIDENCECAUSE</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_ADDRESS" CtrType="CommonCtrl" LogicName="境内住址">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[境内住址]]></ch>
+              <en>ADDRESS</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_TELEPHONE" CtrType="CommonCtrl" LogicName="固定电话">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[固定电话]]></ch>
+              <en>TELEPHONE</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_EMAIL" CtrType="CommonCtrl" LogicName="EMAIL">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[EMAIL]]></ch>
+              <en>EMAIL</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules>
+          <rule name="EmailVaildate" error="请输入正确的Email地址" expression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" />
+        </rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_URGENTTEL" CtrType="CommonCtrl" LogicName="紧急联系电话">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[紧急联系电话]]></ch>
+              <en>URGENTTEL</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_FREELANCETRANSLATOR" CtrType="CommonCtrl" LogicName="兼职人员">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[兼职人员]]></ch>
+              <en>FREELANCETRANSLATOR</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_OLDVISATYPE" CtrType="CommonCtrl" LogicName="签证种类">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[签证种类]]></ch>
+              <en>OLDVISATYPE</en>
+              <t>System.String</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt>db</vt>
+              <r n="VISATYPE">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="ComboBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_PASSNO" CtrType="CommonCtrl" LogicName="证件号码">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[证件号码]]></ch>
+              <en>PASSNO</en>
+              <t>System.String</t>
+              <l>16</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_URGENTP" CtrType="CommonCtrl" LogicName="紧急联系人">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[紧急联系人]]></ch>
+              <en>URGENTP</en>
+              <t>System.String</t>
+              <l>30</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1" CtrType="Form" LogicName="外国人基本信息表Form1">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="DataBindingSet" LogicName="数据绑定">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[创建时间]]></ch>
+              <en>CREATETIME</en>
+              <t>System.DateTime</t>
+              <l>0</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[创建人]]></ch>
+              <en>CREATOR</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[关键字]]></ch>
+              <en>KEYID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[逻辑删除]]></ch>
+              <en>LOGICDEL</en>
+              <t>System.String</t>
+              <l>2</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[资源ID]]></ch>
+              <en>RESOURCEID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[角色ID]]></ch>
+              <en>ROLEID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[工作流实例ID]]></ch>
+              <en>WFINSID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[工作流实例节点ID]]></ch>
+              <en>WFNINSID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[境内住址]]></ch>
+              <en>ADDRESS</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[出生地]]></ch>
+              <en>BIRADDRESS</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[出生日期]]></ch>
+              <en>BIRTHDAY</en>
+              <t>System.DateTime</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[国籍中文]]></ch>
+              <en>CCOUNTRY</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[中文姓名]]></ch>
+              <en>CHNNAME</en>
+              <t>System.String</t>
+              <l>20</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[入境次数中文]]></ch>
+              <en>COLDVISATIME</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[签证种类中文]]></ch>
+              <en>COLDVISATYPE</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt>db</vt>
+              <r n="VISATYPE">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[来华事由]]></ch>
+              <en>COMECAUSE</en>
+              <t>System.String</t>
+              <l>200</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt>db</vt>
+              <r n="RESIRESN">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[接待单位]]></ch>
+              <en>COMPANY</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[国籍]]></ch>
+              <en>COUNTRY</en>
+              <t>System.String</t>
+              <l>3</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[证件类型中文]]></ch>
+              <en>CPASSTYPE</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt>db</vt>
+              <r n="PASSTYPE">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[派出所中文]]></ch>
+              <en>CPOLICESTATION</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[性别]]></ch>
+              <en>CSEX</en>
+              <t>System.String</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt>db</vt>
+              <r n="SEX">
+                <p idx="0" v="SEX" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[EMAIL]]></ch>
+              <en>EMAIL</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[英文名]]></ch>
+              <en>ENGIVENAME</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[英文姓]]></ch>
+              <en>ENSURNAME</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[兼职人员]]></ch>
+              <en>FREELANCETRANSLATOR</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[身份证号码]]></ch>
+              <en>IDNO</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[是否是老用户]]></ch>
+              <en>ISOLDCUSTOMER</en>
+              <t>System.String</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[签发地]]></ch>
+              <en>OLDAPPRADDRESS</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[签发日期]]></ch>
+              <en>OLDAPPRDATE</en>
+              <t>System.DateTime</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[签证号码]]></ch>
+              <en>OLDVISANO</en>
+              <t>System.String</t>
+              <l>25</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[入境次数]]></ch>
+              <en>OLDVISATIME</en>
+              <t>System.String</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt>db</vt>
+              <r n="VISATIME">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[签证种类]]></ch>
+              <en>OLDVISATYPE</en>
+              <t>System.String</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt>db</vt>
+              <r n="VISATYPE">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[签证有效期]]></ch>
+              <en>OLDVISAVALI</en>
+              <t>System.DateTime</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[证件号码]]></ch>
+              <en>PASSNO</en>
+              <t>System.String</t>
+              <l>16</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[证件类型]]></ch>
+              <en>PASSTYPE</en>
+              <t>System.String</t>
+              <l>20</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt>db</vt>
+              <r n="PASSTYPE">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[证件有效期]]></ch>
+              <en>PASSVALI</en>
+              <t>System.DateTime</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[派出所]]></ch>
+              <en>POLICESTATION</en>
+              <t>System.String</t>
+              <l>13</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[居留事由]]></ch>
+              <en>RESIDENCECAUSE</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[入境时间]]></ch>
+              <en>RJTIME</en>
+              <t>System.DateTime</t>
+              <l>10</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[固定电话]]></ch>
+              <en>TELEPHONE</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[紧急联系人]]></ch>
+              <en>URGENTP</en>
+              <t>System.String</t>
+              <l>30</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[紧急联系电话]]></ch>
+              <en>URGENTTEL</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[偕行人数]]></ch>
+              <en>XXR</en>
+              <t>System.Int32</t>
+              <l>4</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt>db</vt>
+              <r n="XXR">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[职务]]></ch>
+              <en>ZW</en>
+              <t>System.String</t>
+              <l>20</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+      </Init>
+      <Filter />
+      <InnerControlList>,FORMBIND_WRAPPANEL1_ENGIVENAME,FORMBIND_WRAPPANEL1_ENSURNAME,FORMBIND_WRAPPANEL1_BIRTHDAY,FORMBIND_WRAPPANEL1_CHNNAME,FORMBIND_WRAPPANEL1_CREATETIME,FORMBIND_WRAPPANEL1_CREATOR,FORMBIND_WRAPPANEL1_KEYID,FORMBIND_WRAPPANEL1_LOGICDEL,FORMBIND_WRAPPANEL1_RESOURCEID,FORMBIND_WRAPPANEL1_ROLEID,FORMBIND_WRAPPANEL1_WFINSID,FORMBIND_WRAPPANEL1_WFNINSID,FORMBIND_WRAPPANEL1_CSEX,FORMBIND_WRAPPANEL1_BIRADDRESS,FORMBIND_WRAPPANEL1_IDNO,FORMBIND_WRAPPANEL1_PASSVALI,FORMBIND_WRAPPANEL1_XXR,FORMBIND_WRAPPANEL1_PASSTYPE,FORMBIND_WRAPPANEL1_OLDVISANO,FORMBIND_WRAPPANEL1_OLDAPPRDATE,FORMBIND_WRAPPANEL1_OLDAPPRADDRESS,FORMBIND_WRAPPANEL1_RJTIME,FORMBIND_WRAPPANEL1_OLDVISATIME,FORMBIND_WRAPPANEL1_OLDVISAVALI,FORMBIND_WRAPPANEL1_COMECAUSE,FORMBIND_WRAPPANEL1_ZW,FORMBIND_WRAPPANEL1_COMPANY,FORMBIND_WRAPPANEL1_RESIDENCECAUSE,FORMBIND_WRAPPANEL1_CPOLICESTATION,FORMBIND_WRAPPANEL1_ADDRESS,FORMBIND_WRAPPANEL1_TELEPHONE,FORMBIND_WRAPPANEL1_EMAIL,FORMBIND_WRAPPANEL1_URGENTTEL,FORMBIND_WRAPPANEL1_FREELANCETRANSLATOR,FORMBIND_WRAPPANEL1_ISOLDCUSTOMER,FORMBIND_WRAPPANEL1_COUNTRY,FORMBIND_WRAPPANEL1_OLDVISATYPE,FORMBIND_WRAPPANEL1_PASSNO,FORMBIND_WRAPPANEL1_POLICESTATION,FORMBIND_WRAPPANEL1_URGENTP</InnerControlList>
+    </CompCtrl>
+    <CompCtrl Name="Button4" CtrType="Button" LogicName="上一步">
+      <Propertys />
+      <Params />
+      <Init />
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_POLICESTATION" CtrType="InputQuery" LogicName="派出所">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[派出所]]></ch>
+              <en>POLICESTATION</en>
+              <t>System.String</t>
+              <l>13</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <pName Name="MetaDataId" LogicName="">
+          <s id="V_POLICE" logicname="派出所表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[创建时间]]></ch>
+              <en>CREATETIME</en>
+              <t>System.DateTime</t>
+              <l>0</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[创建人]]></ch>
+              <en>CREATOR</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[关键字]]></ch>
+              <en>KEYID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[逻辑删除]]></ch>
+              <en>LOGICDEL</en>
+              <t>System.String</t>
+              <l>2</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[资源ID]]></ch>
+              <en>RESOURCEID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[角色ID]]></ch>
+              <en>ROLEID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[工作流实例ID]]></ch>
+              <en>WFINSID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[工作流实例节点ID]]></ch>
+              <en>WFNINSID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[代码]]></ch>
+              <en>CODE</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[英文]]></ch>
+              <en>ENGLISH</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[名称]]></ch>
+              <en>NOTE</en>
+              <t>System.String</t>
+              <l>100</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[拼音]]></ch>
+              <en>PYCODE</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="Button8" CtrType="Button" LogicName="">
+      <Propertys />
+      <Params />
+      <Init />
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_COMPANY" CtrType="CommonCtrl" LogicName="">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[接待单位]]></ch>
+              <en>COMPANY</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <ChildCtrlInfo ctrltype="TextBox" iscompositectrl="False" />
+        <rules></rules>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="Button9" CtrType="Button" LogicName="">
+      <Propertys />
+      <Params />
+      <Init />
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="FORMBIND_WRAPPANEL1_COUNTRY" CtrType="InputQuery" LogicName="">
+      <Propertys />
+      <Params />
+      <Init>
+        <pName Name="Value" LogicName="显示内容">
+          <s id="NT_FINFO" logicname="外国人基本信息表">
+            <extInfo />
+            <m>
+              <ch><![CDATA[国籍]]></ch>
+              <en>COUNTRY</en>
+              <t>System.String</t>
+              <l>3</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+        <pName Name="MetaDataId" LogicName="">
+          <s id="V_COUNTRY" logicname="国籍">
+            <extInfo />
+            <m>
+              <ch><![CDATA[创建时间]]></ch>
+              <en>CREATETIME</en>
+              <t>System.DateTime</t>
+              <l>0</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[创建人]]></ch>
+              <en>CREATOR</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[关键字]]></ch>
+              <en>KEYID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[逻辑删除]]></ch>
+              <en>LOGICDEL</en>
+              <t>System.String</t>
+              <l>2</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[资源ID]]></ch>
+              <en>RESOURCEID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[角色ID]]></ch>
+              <en>ROLEID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[工作流实例ID]]></ch>
+              <en>WFINSID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[工作流实例节点ID]]></ch>
+              <en>WFNINSID</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>True</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="">
+                <p idx="0" v="" />
+              </r>
+              <isshown>False</isshown>
+              <issysfield>0</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[代码]]></ch>
+              <en>CODE</en>
+              <t>System.String</t>
+              <l>3</l>
+              <i>False</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="代码">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[英文]]></ch>
+              <en>ENGLISH</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>False</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="英文">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[中文]]></ch>
+              <en>NOTE</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>False</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="中文">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+            <m>
+              <ch><![CDATA[拼音]]></ch>
+              <en>PYCODE</en>
+              <t>System.String</t>
+              <l>50</l>
+              <i>False</i>
+              <p>0</p>
+              <d></d>
+              <ds></ds>
+              <pv></pv>
+              <vt></vt>
+              <r n="拼音">
+                <p idx="0" v="" />
+              </r>
+              <isshown>True</isshown>
+              <issysfield>1</issysfield>
+            </m>
+          </s>
+        </pName>
+      </Init>
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="Label3" CtrType="Label" LogicName="">
+      <Propertys />
+      <Params />
+      <Init />
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="Label1" CtrType="Label" LogicName="">
+      <Propertys />
+      <Params />
+      <Init />
+      <Filter />
+    </CompCtrl>
+    <CompCtrl Name="Label" CtrType="Label" LogicName="">
+      <Propertys />
+      <Params />
+      <Init />
+      <Filter />
+    </CompCtrl>
+  </CompCtrls>
+  <EventLinkTable>
+    <EventLinkSet SrcCtrlId="Button9" SrcEvent="Button9.Click" TransNo="" DesignerName="default_save1">
+      <EventLink transEvent="0" order="1">
+        <SrcEvent>Button9.Click</SrcEvent>
+        <CallFunction LogicName="默认保存">FORMBIND_WRAPPANEL1.DefaultSave</CallFunction>
+      </EventLink>
+    </EventLinkSet>
+    <EventLinkSet SrcCtrlId="Button8" SrcEvent="Button8.Click" TransNo="" DesignerName="Query_Condition">
+      <EventLink transEvent="0" order="1">
+        <SrcEvent>Button8.Click</SrcEvent>
+        <CallFunction LogicName="根据条件初始化">FORMBIND_WRAPPANEL1.InitByCondition</CallFunction>
+        <Params>
+          <Param Name="COUNTRY" ParamType="Control" MetaDataID="NT_FINFO" ControlName="FORMBIND_WRAPPANEL1_COUNTRY" FieldItem="COUNTRY" />
+          <Param Name="PASSTYPE" ParamType="Control" MetaDataID="NT_FINFO" ControlName="FORMBIND_WRAPPANEL1_PASSTYPE" FieldItem="PASSTYPE" />
+          <Param Name="PASSNO" ParamType="Control" MetaDataID="NT_FINFO" ControlName="FORMBIND_WRAPPANEL1_PASSNO" FieldItem="PASSNO" />
+        </Params>
+      </EventLink>
+    </EventLinkSet>
+    <EventLinkSet SrcCtrlId="FORMBIND_WRAPPANEL1" SrcEvent="FORMBIND_WRAPPANEL1.SaveSuccess" TransNo="" DesignerName="switch_Page">
+      <EventLink type="CTRL_API" order="1" name="ChangePage" transEvent="0">
+        <SrcEvent>FORMBIND_WRAPPANEL1.SaveSuccess</SrcEvent>
+        <CallFunction />
+        <LogicID />
+        <Params>
+          <Param Name="9B3CD704DF7B441883FFA1CB174C38A3;" MetaDataID="" ParamType="Control" ControlName="" FieldItem="9B3CD704DF7B441883FFA1CB174C38A3;" PropertyName="" IsSource="0" />
+        </Params>
+      </EventLink>
+    </EventLinkSet>
+  </EventLinkTable>
+  <PageLoading>
+    <PageEvent ControlName="FORMBIND_WRAPPANEL1" CallFunctionName="Init" />
+  </PageLoading>
+</PageMateDataSchema>

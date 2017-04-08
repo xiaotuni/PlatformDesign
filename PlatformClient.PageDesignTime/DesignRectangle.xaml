@@ -1,0 +1,31 @@
+﻿<UserControl xmlns:my="clr-namespace:PlatformClient.PageDesignTime"  
+             x:Class="PlatformClient.PageDesignTime.DesignRectangle"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="50" d:DesignWidth="50">
+
+    <Grid x:Name="LayoutRoot" Background="#FFDBEF71" Opacity="0.6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="6"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="6"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="6"></RowDefinition>
+        </Grid.RowDefinitions>
+        <my:Auchor x:Name="ancTL"/>
+        <my:Auchor x:Name="ancTC" Grid.Column="1"/>
+        <my:Auchor x:Name="ancTR" Grid.Column="2"/>
+        <my:Auchor x:Name="ancBL" Grid.Row="2"/>
+        <my:Auchor x:Name="ancBC" Grid.Row="2" Grid.Column="1"/>
+        <my:Auchor x:Name="ancBR" Grid.Row="2" Grid.Column="2"/>
+        <my:Auchor x:Name="ancCL" Grid.Row="1" Grid.Column="0"/>
+        <my:Auchor x:Name="ancCR" Grid.Row="1" Grid.Column="2"/>
+        <Border x:Name="brdContent" Grid.Row="1" Grid.Column="1" BorderBrush="#FFDBC2A0" BorderThickness="1.5"></Border>
+    </Grid>
+</UserControl>

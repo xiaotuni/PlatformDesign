@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="7700d73a-5079-4a56-8d5c-5f03372e52ce" name="页面加载" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="790220ef-7ae3-49f4-93c3-c0f5a58d1350" name="页面加载" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <ownedCommentsInternal>
+          <comment Id="dde022ad-ec4e-4b51-893d-9066bdc8520c">
+            <annotatedElements>
+              <lifelineMoniker Id="e8d0e73b-d1cb-47ef-a5d1-112b824c0efe" LastKnownName="Config" />
+            </annotatedElements>
+          </comment>
+        </ownedCommentsInternal>
+        <lifelines>
+          <lifeline Id="d6a22cb2-2480-4c30-a6b0-a2b637409d5d" name="Activity" isActor="false" lifelineDisplayName="Activity" />
+          <lifeline Id="e8d0e73b-d1cb-47ef-a5d1-112b824c0efe" name="Config" isActor="false" lifelineDisplayName="Config" />
+          <lifeline Id="db88bcd3-ccc5-45ff-9f93-5c1f70a11678" name="Lifeline2" isActor="false" lifelineDisplayName="Lifeline2" />
+        </lifelines>
+      </interaction>
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

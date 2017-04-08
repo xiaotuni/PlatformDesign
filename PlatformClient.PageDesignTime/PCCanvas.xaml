@@ -1,0 +1,17 @@
+﻿<Canvas x:Class="PlatformClient.PageDesignTime.PCCanvas"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:my="clr-namespace:PlatformClient.PageDesignTime"  
+    mc:Ignorable="d">
+
+    <!--<Line Name="line_Top"  StrokeDashArray="2 2" />
+    <Line Name="line_Left"  StrokeDashArray="2 2" />-->
+
+    <Line Name="line_Top" Stroke="Black"  X1="0" Y1="150" X2="{Binding ElementName=rootCanvas,Path=Width}" Y2="150" StrokeDashArray="2 2" />
+    <Line Name="line_Left" Stroke="Black"  X1="150" Y1="0" X2="150" Y2="{Binding ElementName=rootCanvas,Path=Height}" StrokeDashArray="2 2" />
+    
+    <TextBox Name="txtHide" Text="" Width="1" Height="1" />
+    <my:DesignRectangle x:Name="dr"  Visibility="Collapsed" />
+</Canvas>

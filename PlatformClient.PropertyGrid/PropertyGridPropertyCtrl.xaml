@@ -1,0 +1,37 @@
+﻿<UserControl xmlns:my="clr-namespace:PlatformClient.PropertyGrid"  
+             x:Class="PlatformClient.PropertyGrid.PropertyGridPropertyCtrl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" 
+             d:DesignHeight="170" 
+             d:DesignWidth="200" 
+    >
+    <UserControl.Resources>
+        <Style TargetType="sdk:Label">
+            <Setter Property="Margin" Value="1,1,1,1" />
+            <Setter Property="Background" Value="#FFE8FBFC" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+        </Style>
+        <Style TargetType="my:PropertyGridEvaluationCtrl" >
+            <Setter Property="Margin" Value="1,1,1,1" />
+        </Style>
+    </UserControl.Resources>
+    <Grid x:Name="LayoutRoot" Background="#FFE8FBFC" >
+        <Grid.RowDefinitions >
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="24"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <my:PropertyGridSearchCtrl Grid.Column="0" x:Name="pgSearch" Grid.Row="0"  />
+        <sdk:Label  Grid.Row="1" Grid.Column="1" Width="150" Content="属性值  |  属性名称" HorizontalAlignment="Left" />
+        <ScrollViewer Grid.Row="2" Grid.Column="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+            <StackPanel Name="spPValue" />
+        </ScrollViewer>
+    </Grid>
+</UserControl>

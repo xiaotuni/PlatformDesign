@@ -1,0 +1,40 @@
+﻿<UserControl 
+    x:Class="PlatformClient.PageDesignTime.Controls.PageLoadingControlCollection"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Height="300" 
+    Width="500" 
+    xmlns:my="clr-namespace:PlatformClient.PageDesignTime.Controls">
+
+    <Grid x:Name="LayoutRoot" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <my:XtnCtrlTree x:Name="tvControls" Grid.Column="0"/>
+        <ListBox Name="lbLoadingControls" Grid.Column="2" SelectionMode="Multiple" />
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="Auto" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="1">
+                <Button Name="btnRight" Content="&gt;" />
+                <Button Name="btnRightAll" Content="&gt;&gt;" />
+                <Button Name="btnLeft" Content="&lt;" />
+                <Button Name="btnLeftAll" Content="&lt;&lt;" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

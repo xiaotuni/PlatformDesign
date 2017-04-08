@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PlatformClient.BaseControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAQAAAAAAAAAQAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlatformClient.ClientCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACACAAAAAAAAAAAAQAAIAAAAAAAAAAEgAAA=</HashCode>
+      <FileName>ClientCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlatformClient.CommandHelper" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAoAAA=</HashCode>
+      <FileName>ClientCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.PlatformChat.PlatformChatClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BOAAFDOggEQEYAA6aaCABa4EeS4AhIDAAGAAZCAoEQI=</HashCode>
+      <FileName>Service References\PlatformChat\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlatformClient.PlatformChat.ReplyWhisperReceivedEventArgs" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEIAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\PlatformChat\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.PlatformServer.PlatformCommandInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAACAAEQAADIAAAgQAAIgABAgCgBACACAQAACAw=</HashCode>
+      <FileName>Service References\PlatformServer\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlatformClient.PlatformServer.ExecSQLCmd" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgCAAACAAAAAQBAwAAAAAQAgAAAAABAAAAKAQAAgAg=</HashCode>
+      <FileName>Service References\PlatformServer\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlatformClient.PlatformServer.DoActionCompletedEventArgs" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\PlatformServer\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.PlatformServer.PlatformServiceClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="PlatformClient.PlatformServer.PlatformServiceClient.PlatformServiceClientChannel" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Service References\PlatformServer\Reference.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BCBABAIABCIEIIgaIjCACAwAAQigAGKAAFAAIAAAAAA=</HashCode>
+      <FileName>Service References\PlatformServer\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="PlatformClient.IPlatformClient" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPlatformClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlatformClient.PlatformChat.IPlatformChat" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAACBQAAAAAACAAAIAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\PlatformChat\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlatformClient.PlatformChat.IPlatformChatCallback" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAIAAABAAQAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\PlatformChat\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlatformClient.PlatformChat.IPlatformChatChannel" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\PlatformChat\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlatformClient.PlatformServer.IPlatformService" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Service References\PlatformServer\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlatformClient.PlatformServer.IPlatformServiceChannel" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\PlatformServer\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="PlatformClient.PlatformServer.CommandDirectionType" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAABAAAAAAAAAAIAAAABA=</HashCode>
+      <FileName>Service References\PlatformServer\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PlatformClient.PlatformServer.ExecSqlCmdType" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAgBAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\PlatformServer\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

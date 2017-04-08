@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ActivityRoot>
+  <ActivityItem Name="ActivityConfig">
+    <ActivityConfig Name="BeginActivity" Description="开始节点" AssemblyQualifiedName="PlatformClient.EventDesign.Activity;PlatformClient.EventDesign.Activity.BeginActivity" />
+    <ActivityConfig Name="EndActivity" Description="结束节点" AssemblyQualifiedName="PlatformClient.EventDesign.Activity;PlatformClient.EventDesign.Activity.EndActivity" />
+    <ActivityConfig Name="JudgeActivity" Description="判断节点" AssemblyQualifiedName="PlatformClient.EventDesign.Activity;PlatformClient.EventDesign.Activity.JudgeActivity" />
+    <ActivityConfig Name="LabelActivity" Description="标签节点" AssemblyQualifiedName="PlatformClient.EventDesign.Activity;PlatformClient.EventDesign.Activity.LabelActivity" />
+    <ActivityConfig Name="HandlingProcessActivity" Description="处理进程" AssemblyQualifiedName="PlatformClient.EventDesign.Activity;PlatformClient.EventDesign.Activity.HandlingProcessActivity" />
+    <ActivityConfig Name="DatabaseActivity" Description="调用数据库" AssemblyQualifiedName="PlatformClient.EventDesign.Activity;PlatformClient.EventDesign.Activity.DatabaseActivity" />
+    <!--<ActivityConfig Name="CallCtrlFunctionActivity" Description="函数调用" AssemblyQualifiedName="PlatformClient.EventDesign.Activity;PlatformClient.EventDesign.Activity.CallCtrlFunctionActivity" />-->
+    <ActivityConfig Name="XtnCallCtrlFunActivity" Description="函数调用" AssemblyQualifiedName="PlatformClient.EventDesign.Activity;PlatformClient.EventDesign.Activity.XtnCallCtrlFunActivity" />
+    <ActivityConfig Name="CallPageAPIActivity" Description="页面API调用" AssemblyQualifiedName="PlatformClient.EventDesign.Activity;PlatformClient.EventDesign.Activity.CallPageAPIActivity" />
+  </ActivityItem>
+  <ApiItem Name="ApiSelector">
+    <ApiSelector Name="GetPropertyValue" Description="获取属性值" AssemblyQualifiedName="PlatformClient.Selectors.Core;PlatformClient.Selectors.Core.ApiSelectors.ApiGetPropertyValue" />
+    <ApiSelector Name="SetPropertyValue" Description="设置属性值" AssemblyQualifiedName="PlatformClient.Selectors.Core;PlatformClient.Selectors.Core.ApiSelectors.ApiSetPropertyValue" />
+    <ApiSelector Name="PopupForm" Description="弹出窗体" AssemblyQualifiedName="PlatformClient.Selectors.Core;PlatformClient.Selectors.Core.ApiSelectors.ApiPopupForm" />
+    <ApiSelector Name="CloseForm" Description="关闭窗体" AssemblyQualifiedName="PlatformClient.Selectors.Core;PlatformClient.Selectors.Core.ApiSelectors.XtnApiCloseForm" />
+    <ApiSelector Name="SwitchForm" Description="页面切换" AssemblyQualifiedName="PlatformClient.Selectors.Core;PlatformClient.Selectors.Core.ApiSelectors.XtnApiSwitchForm" />
+    <ApiSelector Name="RefreshForm" Description="刷新窗体" AssemblyQualifiedName="PlatformClient.Selectors.Core;PlatformClient.Selectors.Core.ApiSelectors.XtnApiRefreshForm" />
+  </ApiItem>
+</ActivityRoot>

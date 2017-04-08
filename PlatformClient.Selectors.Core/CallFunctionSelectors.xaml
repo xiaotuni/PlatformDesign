@@ -1,0 +1,46 @@
+﻿<UserControl
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"  x:Class="PlatformClient.Selectors.Core.CallFunctionSelectors"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Height="600"
+    Width="800"
+    >
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" >
+        <Grid x:Name="LayoutRoot" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <sdk:Label Grid.Row="0" Grid.Column="0" Content="控件列表1" />
+            <sdk:Label Grid.Row="0" Grid.Column="1" Content="方法名称1" />
+            <sdk:Label Grid.Row="0" Grid.Column="2" Content="参数名称1" />
+            <sdk:Label Grid.Row="0" Grid.Column="3" Content="控件列表2" />
+            <sdk:Label Grid.Row="0" Grid.Column="4" Content="控件参数2" />
+            <ListBox Grid.Row="1" Grid.Column="0" Name="lb_Controls1" />
+            <ListBox Grid.Row="1" Grid.Column="1" Name="lb_Controls1Function" >
+                <ListBoxItem>InitLoad</ListBoxItem>
+                <ListBoxItem>InputParameter</ListBoxItem>
+                <ListBoxItem>SetProperty</ListBoxItem >
+                <ListBoxItem>GetProperty</ListBoxItem>
+            </ListBox>
+            <StackPanel Grid.Row="1" Grid.Column="2" Name="sp_Children" />
+            <ListBox Grid.Row="1" Grid.Column="3" Name="lb_Controls2" />
+            <ListBox Grid.Row="1" Grid.Column="4" Name="lb_Controls2Parameter" />
+
+            <!--<StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Name="btnOK" Content=" 确 定 " />
+        </StackPanel>-->
+        </Grid>
+    </ScrollViewer>
+</UserControl>

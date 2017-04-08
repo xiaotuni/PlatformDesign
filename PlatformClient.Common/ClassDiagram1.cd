@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PlatformClient.Common.ExtendMethod" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAACAYAgiAAAAEAFQAwAKDAACARQAAABRAAIBM=</HashCode>
+      <FileName>ExtendMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.PlatformClientChildWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBAGAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAQAQAAA=</HashCode>
+      <FileName>PlatformClientChildWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.BaseAttribute" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAgAgAAAAAAAAAAQAkABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\BaseAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.BindEvent" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAEAAAAAAUCAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Lib\BindEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.ContextMenuInfo" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAACAAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Lib\ContextMenuInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.ControlEventInfo" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAIIAAgAAAQIAYEAAQAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Lib\ControlEventInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.ControlInfo" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAFAAAIAAQgAABQAAQAAggAAkAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\ControlInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.CtrlPlatformCommandInfo" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAEAgQAAAAQAAAAAAAAQgAIAIAAAAAAAAAAgQAAEQQ=</HashCode>
+      <FileName>Lib\CtrlPlatformCommandInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.EventBindInfo" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIIAAQgAAAQAAIAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\EventBindInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.EventInfoAttribute" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\EventInfoAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.EventLinkInfo" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\EventLinkInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.MetaDataColumnInfo" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIBAAGCIIAAIgAABQwAAAAAhBQAMEAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\MetaDataColumnInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.MetaDataInfo" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAABAAAAAIAAAAAABQQAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\MetaDataInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.PageBaseInfo" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAEAABCAAIAIAAAAAYQBSAAAAgAAgAAAACQAEAAAA=</HashCode>
+      <FileName>Lib\PageBaseInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.PageLoadingInfo" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAIAAQEAAAQAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Lib\PageLoadingInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.ParamInfo" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAABBIAAAkAAIQAAAAAACAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Lib\ParamInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.PropertyInfoAttribute" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib\PropertyInfoAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.XamlCanvasTemplate" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAIBAAAAAAUIQQAAAAACAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Lib\XamlCanvasTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.XamlTemplate" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAIAAABAAAQAEAAAAAAIAAwEAgAAIAAABA=</HashCode>
+      <FileName>Lib\XamlTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformClient.Common.Lib.XmlTemplate" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAhAAAAQAAAIAEAAAAAQAAAAAAAAAAAAAAECACASBAA=</HashCode>
+      <FileName>Lib\XmlTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="PlatformClient.Common.Interfaces.IActivity" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAg=</HashCode>
+      <FileName>Interfaces\IActivity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlatformClient.Common.Interfaces.IArrowLine" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAECAAQAAgAAABAAQAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Interfaces\IArrowLine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlatformClient.Common.Interfaces.IBaseActivity" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAEAAAAEAEAIAAEAAQAAAAAAAAAABAAAAAAFAA=</HashCode>
+      <FileName>Interfaces\IBaseActivity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlatformClient.Common.Interfaces.ICompositeCtrl" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAQAAAAAAAQQAAAAAAAAAAAEIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICompositeCtrl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlatformClient.Common.Interfaces.IImportExport" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IImportExport.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlatformClient.Common.Interfaces.IPageDesignFramework" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAQAAAAAAAAAgAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Interfaces\IPageDesignFramework.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlatformClient.Common.Interfaces.IPageRuntime" Collapsed="true">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPageRuntime.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlatformClient.Common.Interfaces.ISelectors" Collapsed="true">
+    <Position X="13.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAQgABAg=</HashCode>
+      <FileName>Interfaces\ISelectors.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlatformClient.Common.Interfaces.IUserControl" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Interfaces\IUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PlatformClient.Common.Interfaces.IEventDesigner" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Interfaces\IUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="PlatformClient.Common.Interfaces.AuchorLocation" Collapsed="true">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAMAAGAAAAAAAAAAAAAAAAAAAAAwIAEA=</HashCode>
+      <FileName>Interfaces\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PlatformClient.Common.Interfaces.CtrType" Collapsed="true">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Interfaces\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PlatformClient.Common.Lib.ContextMenuType" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIEAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Lib\ContextMenuInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

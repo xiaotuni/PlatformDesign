@@ -1,0 +1,36 @@
+﻿<PC:BaseControl 
+    xmlns:toolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit" 
+    xmlns:PC="clr-namespace:PlatformClient;assembly=PlatformClient"
+    x:Class="PlatformClient.EventDesign.Core.XtnEventTree"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" 
+    d:DesignWidth="300"
+    >
+
+    <Grid x:Name="LayoutRoot" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="事件名称:" />
+            <TextBox Grid.Column="1" Name="txtEventName" />
+        </Grid>
+        <ListBox Grid.Row="1" Name="lbEventContentItem" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+        <toolkit:WrapPanel Grid.Row="2" HorizontalAlignment="Right">
+            <Button Name="btnNew" Content="创建" />
+            <Button Name="btnModify" Content="修改" />
+            <Button Name="btnDelete" Content="删除" />
+            <Button Name="btnRefresh" Content="刷新" />
+        </toolkit:WrapPanel>
+    </Grid>
+</PC:BaseControl>

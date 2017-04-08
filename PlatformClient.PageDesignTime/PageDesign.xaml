@@ -1,0 +1,12 @@
+﻿<UserControl xmlns:my="clr-namespace:PlatformClient.PageDesignTime"  
+             x:Class="PlatformClient.PageDesignTime.PageDesign"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Background="#FFF0F0F0" >
+    <my:PCCanvas x:Name="cvsPanle" Margin="2" Background="#FFF0F0F0" 
+              Width="{Binding ElementName=b_canvas,Path=Width}" 
+              Height="{Binding ElementName=b_canvas,Path=Height}" >
+    </my:PCCanvas>
+</UserControl>

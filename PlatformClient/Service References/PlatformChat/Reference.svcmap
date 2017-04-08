@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0bc13a45-2a22-4fd7-8822-ad43557e9eee" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:6667/PlatformChat.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PlatformChat.disco" MetadataType="Disco" ID="7f80950f-8bbc-4765-a1ee-afcc8ba3fdda" SourceId="1" SourceUrl="http://localhost:6667/PlatformChat.svc?disco" />
+    <MetadataFile FileName="PlatformChat.xsd" MetadataType="Schema" ID="2cad698b-2123-4971-8b4e-7f68090499e5" SourceId="1" SourceUrl="http://localhost:6667/PlatformChat.svc?xsd=xsd1" />
+    <MetadataFile FileName="PlatformChat1.xsd" MetadataType="Schema" ID="e7a0ea75-fe48-4651-8662-c76d32916c23" SourceId="1" SourceUrl="http://localhost:6667/PlatformChat.svc?xsd=xsd0" />
+    <MetadataFile FileName="PlatformChat2.xsd" MetadataType="Schema" ID="10e130f2-d125-43ab-b51d-49d152344349" SourceId="1" SourceUrl="http://localhost:6667/PlatformChat.svc?xsd=xsd2" />
+    <MetadataFile FileName="PlatformChat.wsdl" MetadataType="Wsdl" ID="577991fd-539b-4423-a1d3-3a5230b02474" SourceId="1" SourceUrl="http://localhost:6667/PlatformChat.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
